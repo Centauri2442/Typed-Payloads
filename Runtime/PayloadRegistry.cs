@@ -5,6 +5,7 @@ namespace VIOLET.Payloads
 {
     /// <summary>
     /// Registry service that stores and retrieves typed, immutable payload entries per owner.
+    /// Most implementations will use bespoke registries per integration.
     /// </summary>
     public class PayloadRegistry
     {
