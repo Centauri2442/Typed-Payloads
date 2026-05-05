@@ -1,0 +1,10 @@
+{
+  "name": "com.studioviolet.payloads",
+  "version": "0.0.1",
+  "displayName": "Typed Payloads",
+  "description": "Implementation of typed payloads for use in Unity.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Blake Violet Cash"
+  }
+}
