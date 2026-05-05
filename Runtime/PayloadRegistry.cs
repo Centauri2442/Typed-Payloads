@@ -19,7 +19,7 @@ namespace VIOLET.Payloads
         /// <typeparam name="TPayload">The payload struct type.</typeparam>
         /// <param name="owner">The object that owns this payload.</param>
         /// <param name="payload">The payload data to store.</param>
-        /// <param name="nowSeconds">The current time in seconds, captured on the main thread via Time.time.</param>
+        /// <param name="nowSeconds">The current time in seconds, usually fed in through Time.time.</param>
         public void Set<TPayload>(object owner, TPayload payload, float nowSeconds) where TPayload : struct
         {
             var bucket = GetOrCreateBucket<TPayload>();
